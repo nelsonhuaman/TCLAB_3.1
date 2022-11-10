@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese valor inicial: ";
+	Leer inicial;
+	Escribir "Ingrese valor final: ";
+	Leer final;
+	suma <- 0;
+	Para i<-inicial Hasta final Hacer
+		suma = suma + i;
+	FinPara;
+	Escribir "La suma es: ", suma;
+FinAlgoritmo
